@@ -1,0 +1,60 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.formulario {
+    margin-left: 5%;
+}
+
+.cabecalho {
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+
+    text-align: center;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+.cabecalho:hover {
+    background-color: #0056b3; 
+}
+#dados_titulo {
+  font-weight: 700; /* Equivalente a bold */
+
+  float: left;
+  width: 31%;
+  margin: 1px;
+}
+
+#submit {
+    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px; /* Tamanho da fonte mais grande */
+  padding: 10px 20px; /* Espaçamento interno para aumentar o tamanho do botão */
+  border-radius: 10px; /* Raio para arredondar os cantos */
+  border: none; /* Remover a borda padrão */
+  background-color: #007bff; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  cursor: pointer; /* Cursor do mouse como ponteiro para indicar que é clicável */
+  transition: background-color 0.3s; /* Transição suave ao mudar cor de fundo */
+}
+
+#submit:hover {
+    background-color: #0056b3; 
+}
+.text_digitavel {
+  font-weight: 700; /* Equivalente a bold */
+
+  position: relative;
+  width: 90%;
+  height: 40px;
+  border: 40px;
+  border-radius: 50px;
+  background-color: rgb(228, 228, 228);
+}
+
+nome {
+    color: #0056b3;
+}

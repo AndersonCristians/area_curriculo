@@ -1,0 +1,115 @@
+/* Arquivo estilos.css */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+.dados {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.submit {
+  display: block;
+  position: absolute;
+  top: 100%;
+  height: 2%;
+  width: 5%;
+  margin-left: 95px;
+  font-size: 18px; /* Tamanho da fonte mais grande */
+  padding: 10px 20px; /* Espaçamento interno para aumentar o tamanho do botão */
+  border-radius: 10px; /* Raio para arredondar os cantos */
+  border: none; /* Remover a borda padrão */
+  background-color: #007bff; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  cursor: pointer; /* Cursor do mouse como ponteiro para indicar que é clicável */
+  transition: background-color 0.3s; /* Transição suave ao mudar cor de fundo */
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.nome {
+  color: #0056b3;
+
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.nacionalidade {
+  font-size: 200%;
+  position: relative;
+  top: -80px;
+}
+
+.endereco {
+  font-size: 150%;
+  position: relative;
+  top: -120px;
+}
+
+.comunicacao {
+  font-size: 150%;
+  position: relative;
+  top: -225px;
+  left: 150px;
+}
+
+.titulo_comunicacao {
+  color: #0056b3;
+  font-size: 150%;
+  position: relative;
+  top: -120px;
+}
+
+hr {
+  position: relative;
+  top: -220px; /* Ajuste fino */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.titulo {
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 150%;
+  position: relative;
+  top: -230px;
+}
+
+.text_digitavel {
+  font-size: 150%;
+  position: relative;
+  top: -240px;
+}
+
+.imagem {
+  position: absolute;
+  left: 1200px;
+  top: 2%;
+  width: 250px; /* Define a largura da imagem */
+  height: 250px; /* Define a altura da imagem */
+  border-radius: 50%; /* Arredonda as bordas para formar um círculo */
+  object-fit: cover; /* Garante que a imagem cubra a área sem deformar */
+}

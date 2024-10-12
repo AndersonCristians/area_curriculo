@@ -1,0 +1,99 @@
+.cabecalho
+{position: relative;
+width: 100%;
+height: 84px;}
+
+
+#logo
+{position: relative;
+width: 300px;
+height: 130px;
+top: -20%;
+border-radius: 180.5px;
+}
+
+
+
+#Ficha
+{position: absolute;
+left: 500px;
+top: -20px;
+width: 779px;
+height: 84px;
+
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+text-transform: uppercase;
+color: #00407A;}
+
+#Divisão
+{position: absolute;
+left: 600px;
+top: 40px;
+width: 549px;
+height: 32px;
+
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #00407A;}
+
+.retangulo
+{position: relative;
+    top: -40px;
+width: 100%;
+height: 5px;
+background: rgba(54, 160, 255, 0.2);}
+
+body { width: 95%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;}
+
+
+.titulo
+
+{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 40px;
+line-height: 24px;
+color: #00407A;}
+
+.frase
+
+{
+font-size: 25px;
+line-height: 24px;
+text-align: center;
+color: #000000;}
+
+.frase2
+
+{font-weight: normal;
+
+font-size: 25px;
+line-height: 24px;
+text-align: center;
+color: #000000;}
+
+#button { border: 20px;
+    border-radius: 30px;
+    width: 15%;
+    height: 50px;
+    font-size: 150%;
+    cursor: pointer;
+    margin-bottom: 40px; 
+
+}
+
+.aluno {display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+
+  }
+
+    #button:hover {
+        background-color: #7abefa60;}
