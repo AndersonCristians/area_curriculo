@@ -99,7 +99,7 @@
         ?>
     </div>
 
-    <a class="submit" href="index2.php">Voltar</a>
+    <a class="submit" href="index.php">Voltar</a>
 </body>
 
 </html>
